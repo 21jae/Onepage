@@ -12,12 +12,11 @@ section{
 body{
     font-family: 'Spoqa Han Sans Neo', 'sans-serif';
     font-size: 16px;
-    
-
 }
 
 .gnb a{
     color: #fff;
+    font-size: 18px;
 }
 
 a{
@@ -27,6 +26,12 @@ a{
 
 .line2 a{
     color: #E50914;
+    font-weight: 600;
+}
+
+.gnb .brand a{
+    color: #E50914;
+    text-decoration: underline;
 }
 
 /* 글자영역 */
@@ -147,7 +152,6 @@ section{
 .sec06-title{
     font-size: 3rem;
     padding-top: 60px;
-    
 }
 
 .sec06-title a:hover{
@@ -167,47 +171,178 @@ section{
     transition: .35s;
 }
 
-.insta2>a:hover img {
-    transform: scale(1.03);
-    transition: transform 0.3s;
-  
+
+.sns-main{
+    width: 290px;
+    height: 290px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
-.insta3>a:hover img {
-    transform: scale(1.03);
-    transition: transform 0.3s;
-    filter: brightness(70%);
+
+/* .sns-main p{
+    font-size: 16px;
+    padding: 70px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    
+} */
+
+.sns2{
+    background-image: url('../images/ins2.png');
+    overflow: hidden;
 
 }
-.insta4>a:hover img {
-    transform: scale(1.03);
-    transition: transform 0.3s;
-    filter: brightness(70%);
-}
-.insta5>a:hover img {
-    transform: scale(1.03);
-    transition: transform 0.3s;
-    filter: brightness(70%);
 
+.sns3{
+    background-image: url('../images/ins3.png');
+    overflow: hidden;
 }
-.insta6>a:hover img {
-    transform: scale(1.03);
-    transition: transform 0.3s;
-    filter: brightness(70%);
-}
-.insta7>a:hover img {
-    transform: scale(1.03);
-    transition: transform 0.3s;
-    filter: brightness(70%);
 
+.sns4{
+    background-image: url('../images/ins4.png');
+    overflow: hidden;
 }
-.insta8>a:hover img {
-    transform: scale(1.03);
-    transition: transform 0.3s;
-    filter: brightness(70%);
-}
-.insta9>a:hover img {
-    transform: scale(1.03);
-    transition: transform 0.3s;
-    filter: brightness(70%);
 
+.sns5{
+    background-image: url('../images/ins5.png');
+    overflow: hidden;
+}
+
+.sns6{
+    background-image: url('../images/ins6.png');
+    overflow: hidden;
+}
+
+.sns7{
+    background-image: url('../images/ins7.png');
+    overflow: hidden;
+}
+
+.sns8{
+    background-image: url('../images/ins8.png');
+    overflow: hidden;
+}
+
+.sns9{
+    background-image: url('../images/ins9.png');
+    overflow: hidden;
+}
+
+.sns10{
+    background-image: url('../images/ins10-1.png');
+    overflow: hidden;
+}
+
+.sns11{
+    background-image: url('../images/ins11-1.png');
+    overflow: hidden;
+}
+
+.sns12{
+    background-image: url('../images/ins12.png');
+    overflow: hidden;
+}
+
+.sns13{
+    background-image: url('../images/ins13.png');
+    overflow: hidden;
+}
+
+
+.sns2:hover{
+    background-image: url('../images/ins2-1.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+   
+}
+
+.sns3:hover{
+    background-image: url('../images/ins3-1.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+ 
+}
+
+.sns4:hover{
+    background-image: url('../images/ins4-1.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+   
+}
+
+.sns5:hover{
+    background-image: url('../images/ins5-1.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+   
+}
+
+.sns6:hover{
+    background-image: url('../images/ins6-1.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+   
+}
+
+.sns7:hover{
+    background-image: url('../images/ins7-1.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+    
+}
+
+.sns8:hover{
+    background-image: url('../images/ins8-1.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+   
+}
+
+.sns9:hover{
+    background-image: url('../images/ins9-1.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+    
+}
+
+.sns10:hover{
+    background-image: url('../images/ins10-3.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+   
+}
+
+.sns11:hover{
+    background-image: url('../images/ins11-2.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+    
+}   
+
+.sns12:hover{
+    background-image: url('../images/ins12-1.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+    
+}
+
+.sns13:hover{
+    background-image: url('../images/ins13-1.png');
+    transition:  .35s ease-in-out;
+    transform: scale(1.05);
+    
+}
+
+.insta-logo p{
+    margin-top: 20px;
+}
+
+.insta-logo p:hover{
+    color: rgb(131, 131, 131);
+    transition: .35s;
 }

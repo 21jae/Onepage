@@ -6,6 +6,11 @@
     
 header{
     background: black;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px; */
 }
 
 header nav{
@@ -264,9 +269,7 @@ section .video01{
 .advertising button{
     width: 40px;
     height: 30px;
-   
     border: none;
-    
     z-index: 30;
 }
 
@@ -537,12 +540,13 @@ iframe{
 .section06{
     background: #000;
     border-bottom: 8px solid #222;
+    height: 70vh;
 }
 
 .sns_list{
-    width: 65%;
+    width: 63%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 60px;
     justify-content: center;
     align-items: center;
 }
@@ -556,16 +560,64 @@ iframe{
 }
 
 .sns_list img{
-    margin: 10px;
+   margin: 0 10px;
+}   
+
+.insta-logo{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.insta-logo img{
+    width: 30px;
+    height: 30px;
+}
+
+.insta-logo img:hover{
+    transform: scale(1.3);
+    transition: .2s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+.sns_list button{
+    display: none;
+}
+
+.sns_list .slick-prev{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 0;
+    top: 47%;
+    left: -6%;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    background: url('../images/wingback5.png') no-repeat;
+    border:none;
+}
+
+.sns_list .slick-next{
+    width: 50px;
+    height: 50px;
+    font-size: 0;
+    top: 47%;
+    right: -6%;
+    position: absolute;
+    z-index: 15;
+    cursor: pointer;
+    border:none;
+    background: url('../images/wingback6.png') no-repeat;
+    
 }
 
 
-.insta2>a:hover img {
-    transform: scale(1.03);
-    transition: transform 0.3s;
-    filter: brightness(70%);
 
-}
+
+
+
+
+
 
 
 
@@ -674,10 +726,149 @@ iframe{
         font-size: 14px;
     }
 
+    
+    /* .section03 */
+
+    .section03{
+        height: 30vh;
+        padding: 100px 0;
+    }
+
+    .cf-main{
+        margin: 0 10px;
+    }
+
+    .top-text{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .advertising a:hover .top-text{
+        bottom: 45%;
+    }
+    .advertising .slick-next{
+        top: 50%;
+    }
+    .tt2{
+        left:35%;
+    }
+    .tt3{
+        left:32%;
+    }
+    .tt4{
+        left:27%
+    }
+    .tt5{
+        left:29%; 
+    }
+    .tt6{
+        left:33%; 
+    }
+
+    /* .section04 */
+
+    .sec04-title{
+        font-size: 40px;
+    }
+
+    .newswrap{
+        width: 85%;
+        margin: 0 auto;
+        
+    }
+
+    .news_left img{
+        height: 180px;
+    }
+
+    .scon{
+        font-size: 17px;
+    }
+    .news_text{
+        font-size: 12.5px;
+    }
+
+    .btn01{
+        padding: 8px 30px;
+    }
+
+    /* .section05 */
+    .section05{
+        height: 50vh;
+    }
+
+    .sec05-title{
+        font-size: 40px;
+    }
+
+    iframe{ 
+        top:0; 
+        right:0;    
+        width:500px; 
+        height:450px; 
+    }
+
+    .sec05_video{
+        width: 85%;
+    }
+
+    .video_title .video-logo{
+        margin-left:-60px;
+        margin-top: 50px;
+        width: 350px;
+     }
+
+     .video_title{
+        margin-left: 100px;
+    }
+    
+    .video_title h1{
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 12px;
+        margin-left: -33px;
+    }
+    
+    .video_title p{
+        font-size: 14px;
+        margin-top: 40px;
+        line-height: 20px;
+        margin-left: -33px;
+        color: rgb(211, 211, 211);
+    }
+    .video_title .youtube{
+        width: 50px;
+        height: 50px;
+        margin-top: 60px;
+        margin-left: -33px;
+    }
+    .video_title .youtube2{
+        width: 50px;
+        height: 50px;
+        margin-top: 60px;
+    }
+
+    /* .section06 */
+
+    .sns_list{
+        width: 85%;
+    }
+
+    .sns-main{
+        width: 200px;
+        height: 200px;
+    }
+
+    .sns_list .slick-prev{
+        top: 45%;
+        left: -6%;
+    }
+
+    .sns_list .slick-next{
+        top: 45%;
+        right: -6%;
+    }
 
 
-
-    /* 내일할것:product 누를시 효과 주기  */
 
 
 }
