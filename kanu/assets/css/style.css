@@ -40,7 +40,7 @@ section{
 
 
 section .video01{
-    width: 1668px;
+    width: 100%;
 }
 
 .video01{
@@ -51,7 +51,7 @@ section .video01{
 
 .section01 .video-bg{
     width: 100%;
-    height:960px;
+    height:100vh;
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
@@ -326,6 +326,7 @@ section .video01{
 .advertising a:hover .top-text{
     bottom:47%
 }
+
 .advertising a:hover .bottom-text{
     display: none;
 }
@@ -467,14 +468,107 @@ overflow: hidden;
     padding: 10px 35px;
 }
 
+.btn01:hover{
+    background:whitesmoke;
+    color: #E50914;
+    transition:  .2s ease-in-out;
+}
+
 
 
 /* .section05 */
 
 .section05{
     background: #000;
+    height: 90vh;
+    border-bottom: 8px solid #222;
+
+}
+
+.sec05_video{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.left{
+    display: flex;
+}
+
+iframe{ 
+    top:0; 
+    right:0;    
+    width:800px; 
+    height:500px; 
+}
+
+.video_title .video-logo{
+    margin-left:-30px;
+    margin-top: 50px;
+ }
+
+.video_title .youtube{
+     width: 70px;
+     height: 70px;
+     margin-top: 80px;
+ }
+
+ .video_title .youtube2{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.video_title .youtube:hover{
+    transform: scale(1.2);  
+    transition:  .3s ease-in-out;
+}
+
+.video_title .youtube2:hover{
+    transform: scale(1.2);  
+    transition:  .3s ease-in-out;
+}
+
+
+
+
+/* .section06 */
+
+.section06{
+    background: #000;
     border-bottom: 8px solid #222;
 }
+
+.sns_list{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sns_list .sns1{
+    display: flex;
+}
+
+.sns_list .sns2{
+    display: flex;
+}
+
+.sns_list img{
+    margin: 10px;
+}
+
+
+.insta2>a:hover img {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    filter: brightness(70%);
+
+}
+
+
+
 
 
 

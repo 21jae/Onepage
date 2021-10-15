@@ -110,46 +110,104 @@ section{
 }
 
 
-.insta_wrap {
-    width: 100%;
-    height: 100%;
-  }
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+/* .section05 */
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
+.sec05-title{
+    /* margin-top: 60px; */
+    padding-top: 60px;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 300;
+}
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.video_title{
+    margin-left: 100px;
+}
 
-  .swiper {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.video_title h1{
+    font-size: 2rem;
+    line-height: 45px;
+    margin-top: 15px;
+    
+}
+
+.video_title p{
+    font-size: 17px;
+    margin-top: 50px;
+    line-height: 25px;
+    color: rgb(211, 211, 211);
+}
 
 
 
+/* .section06 */
 
 
+.sec06-title{
+    font-size: 3rem;
+    padding-top: 60px;
+    
+}
 
+.sec06-title a:hover{
+    color: #E50914;
+    transition: all .35s; 
+    
+}
 
+.text-center h3{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.text-center h3:hover{
+    color: rgb(131, 131, 131);
+    transition: .35s;
+}
+
+.insta2>a:hover img {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+  
+}
+.insta3>a:hover img {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    filter: brightness(70%);
+
+}
+.insta4>a:hover img {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    filter: brightness(70%);
+}
+.insta5>a:hover img {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    filter: brightness(70%);
+
+}
+.insta6>a:hover img {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    filter: brightness(70%);
+}
+.insta7>a:hover img {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    filter: brightness(70%);
+
+}
+.insta8>a:hover img {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    filter: brightness(70%);
+}
+.insta9>a:hover img {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    filter: brightness(70%);
+
+}
